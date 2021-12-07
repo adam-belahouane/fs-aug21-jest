@@ -8,15 +8,6 @@ dotenv.config()
 
 const request = supertest(app)
 
-describe("Testing the testing environment", () => {
-
-    it("should check that true is true", () => {
-        expect(true).toBe(true);
-    });
-
-
-})
-
 describe("Testing the app endpoints", () => {
 
 
